@@ -1,3 +1,3 @@
 <template>
-  <NuxtLayout name="common"> hello world! </NuxtLayout>
+  <NuxtLayout name="common"> Halo Dunia~~ Ini Web Primdev </NuxtLayout>
 </template>
