@@ -19,7 +19,6 @@
 header {
   align-items: center;
   display: flex;
-  font-family: "Roboto", sans-serif;
   justify-content: space-between;
   padding: 8px 100px; // ! all parent elements must have padding like this
 
