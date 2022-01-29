@@ -11,7 +11,7 @@
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/our-team">Our Team</NuxtLink>
     </nav>
-    <nav class="mobile-nav">
+    <nav class="mobile-nav hide">
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/our-team">Our Team</NuxtLink>
@@ -34,7 +34,7 @@ header {
     text-decoration: none;
 
     h1 {
-      color: var(--primary-gray); // ! this is just a temporary color
+      color: var(--primary-gray);
       font-size: 25px;
       font-weight: 100;
 
@@ -45,9 +45,18 @@ header {
   }
 
   .desktop-nav a {
-    color: gray; // ! this is just a temporary color
+    color: var(--secondary-gray);
     margin-left: 40px;
     text-decoration: none;
+    transition: ease 1s all;
+  }
+
+  .desktop-nav a:hover {
+    color: var(--primary-gray);
+  }
+
+  nav.hide {
+    display: none;
   }
 }
 </style>
