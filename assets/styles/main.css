@@ -8,6 +8,8 @@
 :root {
   --primary-blue: #1bb4bb;
   --secondary-blue: #2cccd4;
+  --primary-gray: rgb(68, 68, 68);
+  --secondary-gray: rgb(173, 172, 172);
 }
 
 /* *font-family: 'Roboto', sans-serif; */
