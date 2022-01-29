@@ -11,11 +11,16 @@
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/our-team">Our Team</NuxtLink>
     </nav>
+    <nav class="mobile-nav">
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/about">About</NuxtLink>
+      <NuxtLink to="/our-team">Our Team</NuxtLink>
+    </nav>
   </header>
 </template>
 
 <style scoped lang="scss">
-@import url("~/assets/styles/main.css");
+@import url("../assets/styles/main.css");
 header {
   align-items: center;
   display: flex;
@@ -29,7 +34,7 @@ header {
     text-decoration: none;
 
     h1 {
-      color: rgb(80, 78, 78); // ! this is just a temporary color
+      color: var(--primary-gray); // ! this is just a temporary color
       font-size: 25px;
       font-weight: 100;
 
