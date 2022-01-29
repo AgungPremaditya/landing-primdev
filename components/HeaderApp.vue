@@ -46,6 +46,7 @@ header {
 
   .desktop-nav a {
     color: var(--secondary-gray);
+    font-size: 14px;
     margin-left: 40px;
     text-decoration: none;
     transition: ease 1s all;
@@ -57,6 +58,28 @@ header {
 
   nav.hide {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 8px 50px;
+
+    .container-brand a h1 {
+      font-size: 18px;
+    }
+
+    .desktop-nav a {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    .desktop-nav {
+      display: none;
+    }
   }
 }
 </style>
