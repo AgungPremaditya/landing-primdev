@@ -8,5 +8,9 @@
   "devDependencies": {
     "nuxt3": "latest",
     "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.1",
+    "motion": "^10.6.0"
   }
 }
