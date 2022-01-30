@@ -13,7 +13,7 @@ function toggle(): void {
 		<div class="container-brand">
 			<NuxtLink to="/">
 				<img src="~/assets/images/logo.png" alt="logo" height="70" />
-				<h1>Primakara <span>Developer</span></h1>
+				<h1>Primakara <span>Developers</span></h1>
 			</NuxtLink>
 		</div>
 		<nav class="desktop-nav">
@@ -56,6 +56,7 @@ header {
 	position: fixed; // ! This Combination to make fixed on top
 	top: 0; // ! This Combination to make fixed on top
 	width: 100%;
+	z-index: 50; // ! This Combination to make fixed on top
 
 	.container-brand a {
 		align-items: center;
@@ -86,7 +87,7 @@ header {
 
 	.desktop-nav a {
 		color: var(--secondary-gray);
-		font-size: 14px;
+		font-size: 18px;
 		margin-left: 40px;
 		text-decoration: none;
 		transition: ease 0.5s all;

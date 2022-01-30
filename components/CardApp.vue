@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Motion, Presence } from "motion/vue";
+import { Motion } from "motion/vue";
 </script>
 
 <template>
