@@ -9,7 +9,7 @@ import "boxicons/css/boxicons.min.css";
 		</div>
 		<div class="brand">
 			<img src="~/assets/images/logo.png" alt="logo" height="70" />
-			<h1>Primakara <span>Developer</span></h1>
+			<h1>Primakara <span>Developers</span></h1>
 		</div>
 		<div class="social-media">
 			<NuxtLink to="#">
